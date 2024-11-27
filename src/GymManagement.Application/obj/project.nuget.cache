@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "6uyJ0Wt3Tkc=",
+  "success": true,
+  "projectFilePath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/GymManagement.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/rachidamrani/.nuget/packages/erroror/2.0.1/erroror.2.0.1.nupkg.sha512",
+    "/Users/rachidamrani/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/Users/rachidamrani/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/rachidamrani/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

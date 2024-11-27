@@ -1,0 +1,11 @@
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/bin/Debug/net9.0/GymManagement.Domain.deps.json
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/bin/Debug/net9.0/GymManagement.Domain.dll
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/bin/Debug/net9.0/GymManagement.Domain.pdb
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/obj/Debug/net9.0/GymManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/obj/Debug/net9.0/GymManagement.Domain.AssemblyInfoInputs.cache
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/obj/Debug/net9.0/GymManagement.Domain.AssemblyInfo.cs
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/obj/Debug/net9.0/GymManagement.Domain.csproj.CoreCompileInputs.cache
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/obj/Debug/net9.0/GymManagement.Domain.dll
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/obj/Debug/net9.0/refint/GymManagement.Domain.dll
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/obj/Debug/net9.0/GymManagement.Domain.pdb
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/obj/Debug/net9.0/ref/GymManagement.Domain.dll

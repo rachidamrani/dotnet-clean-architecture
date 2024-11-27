@@ -1,0 +1,365 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Api/GymManagement.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Api/GymManagement.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Api/GymManagement.Api.csproj",
+        "projectName": "GymManagement.Api",
+        "projectPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Api/GymManagement.Api.csproj",
+        "packagesPath": "/Users/rachidamrani/.nuget/packages/",
+        "outputPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Api/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/rachidamrani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/GymManagement.Application.csproj": {
+                "projectPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/GymManagement.Application.csproj"
+              },
+              "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Contracts/GymManagement.Contracts.csproj": {
+                "projectPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Contracts/GymManagement.Contracts.csproj"
+              },
+              "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Infrastructure/GymManagement.Infrastructure.csproj": {
+                "projectPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Infrastructure/GymManagement.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/GymManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/GymManagement.Application.csproj",
+        "projectName": "GymManagement.Application",
+        "projectPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/GymManagement.Application.csproj",
+        "packagesPath": "/Users/rachidamrani/.nuget/packages/",
+        "outputPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/rachidamrani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/GymManagement.Domain.csproj": {
+                "projectPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/GymManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Contracts/GymManagement.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Contracts/GymManagement.Contracts.csproj",
+        "projectName": "GymManagement.Contracts",
+        "projectPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Contracts/GymManagement.Contracts.csproj",
+        "packagesPath": "/Users/rachidamrani/.nuget/packages/",
+        "outputPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/rachidamrani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/GymManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/GymManagement.Domain.csproj",
+        "projectName": "GymManagement.Domain",
+        "projectPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/GymManagement.Domain.csproj",
+        "packagesPath": "/Users/rachidamrani/.nuget/packages/",
+        "outputPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/rachidamrani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Infrastructure/GymManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Infrastructure/GymManagement.Infrastructure.csproj",
+        "projectName": "GymManagement.Infrastructure",
+        "projectPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Infrastructure/GymManagement.Infrastructure.csproj",
+        "packagesPath": "/Users/rachidamrani/.nuget/packages/",
+        "outputPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/rachidamrani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/GymManagement.Application.csproj": {
+                "projectPath": "/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/GymManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

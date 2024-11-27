@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{003DC6B2-C001-478A-814F-4BB0B2F38773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Api", "src\GymManagement.Api\GymManagement.Api.csproj", "{3F888786-B5FB-493C-88C0-A458DBD44906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Application", "src\GymManagement.Application\GymManagement.Application.csproj", "{6BF92290-C7DF-4573-8844-F50017D84777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Domain", "src\GymManagement.Domain\GymManagement.Domain.csproj", "{3505F669-841D-435E-8B45-EFAD16FEEBA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Infrastructure", "src\GymManagement.Infrastructure\GymManagement.Infrastructure.csproj", "{5CDD39D6-5722-44E7-8AFC-5EBC7524FFAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{6477ACF8-8BE4-4A9B-95CC-B6D8C4767870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Contracts", "src\GymManagement.Contracts\GymManagement.Contracts.csproj", "{147A452D-2D72-41C5-A2F6-9BBA2CFA2149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F888786-B5FB-493C-88C0-A458DBD44906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F888786-B5FB-493C-88C0-A458DBD44906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F888786-B5FB-493C-88C0-A458DBD44906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F888786-B5FB-493C-88C0-A458DBD44906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF92290-C7DF-4573-8844-F50017D84777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF92290-C7DF-4573-8844-F50017D84777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF92290-C7DF-4573-8844-F50017D84777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF92290-C7DF-4573-8844-F50017D84777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3505F669-841D-435E-8B45-EFAD16FEEBA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3505F669-841D-435E-8B45-EFAD16FEEBA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3505F669-841D-435E-8B45-EFAD16FEEBA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3505F669-841D-435E-8B45-EFAD16FEEBA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CDD39D6-5722-44E7-8AFC-5EBC7524FFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDD39D6-5722-44E7-8AFC-5EBC7524FFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDD39D6-5722-44E7-8AFC-5EBC7524FFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDD39D6-5722-44E7-8AFC-5EBC7524FFAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6477ACF8-8BE4-4A9B-95CC-B6D8C4767870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6477ACF8-8BE4-4A9B-95CC-B6D8C4767870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6477ACF8-8BE4-4A9B-95CC-B6D8C4767870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6477ACF8-8BE4-4A9B-95CC-B6D8C4767870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147A452D-2D72-41C5-A2F6-9BBA2CFA2149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147A452D-2D72-41C5-A2F6-9BBA2CFA2149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147A452D-2D72-41C5-A2F6-9BBA2CFA2149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147A452D-2D72-41C5-A2F6-9BBA2CFA2149}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F888786-B5FB-493C-88C0-A458DBD44906} = {003DC6B2-C001-478A-814F-4BB0B2F38773}
+		{6BF92290-C7DF-4573-8844-F50017D84777} = {003DC6B2-C001-478A-814F-4BB0B2F38773}
+		{3505F669-841D-435E-8B45-EFAD16FEEBA8} = {003DC6B2-C001-478A-814F-4BB0B2F38773}
+		{5CDD39D6-5722-44E7-8AFC-5EBC7524FFAB} = {003DC6B2-C001-478A-814F-4BB0B2F38773}
+		{147A452D-2D72-41C5-A2F6-9BBA2CFA2149} = {003DC6B2-C001-478A-814F-4BB0B2F38773}
+	EndGlobalSection
+EndGlobal

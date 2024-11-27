@@ -1,0 +1,15 @@
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/bin/Debug/net9.0/GymManagement.Application.deps.json
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/bin/Debug/net9.0/GymManagement.Application.dll
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/bin/Debug/net9.0/GymManagement.Application.pdb
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/bin/Debug/net9.0/GymManagement.Domain.dll
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/bin/Debug/net9.0/GymManagement.Domain.pdb
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/obj/Debug/net9.0/GymManagement.Application.csproj.AssemblyReference.cache
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/obj/Debug/net9.0/GymManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/obj/Debug/net9.0/GymManagement.Application.AssemblyInfoInputs.cache
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/obj/Debug/net9.0/GymManagement.Application.AssemblyInfo.cs
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/obj/Debug/net9.0/GymManagement.Application.csproj.CoreCompileInputs.cache
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/obj/Debug/net9.0/GymManag.E831DFE7.Up2Date
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/obj/Debug/net9.0/GymManagement.Application.dll
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/obj/Debug/net9.0/refint/GymManagement.Application.dll
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/obj/Debug/net9.0/GymManagement.Application.pdb
+/Users/rachidamrani/Workspace/dotnet-clean-architecture/DomeGym/src/GymManagement.Application/obj/Debug/net9.0/ref/GymManagement.Application.dll
